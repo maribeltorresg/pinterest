@@ -7,7 +7,9 @@
 body {
     font-family: 'Source Sans Pro', sans-serif;
 }
-
+header {
+    background-color: white;
+}
 .menu {
     border-bottom: 1px solid #d3d3d3;
     padding: 10px 0;
@@ -95,7 +97,29 @@ body {
     background-color: #B17E77;
 }
 
+main {
+    margin: auto;
+    max-width: 1400px;
+    padding: 0 10px;
+}
 
+main .col {
+    float: left;
+    width: 25%;
+}
+
+main .box {
+    margin: 20px 10px;
+}
+
+.box img {
+    display: block;
+    width: 100%;
+}
+.box .details {
+    background-color: white;
+    height: 150px;
+}
 
 
 
