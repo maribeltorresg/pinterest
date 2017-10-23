@@ -9,6 +9,8 @@ body {
 }
 header {
     background-color: white;
+    position: fixed;
+    width: 100%;
 }
 .menu {
     border-bottom: 1px solid #d3d3d3;
