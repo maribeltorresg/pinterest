@@ -101,6 +101,9 @@ header {
 }
 
 main { 
+    /* centrar margin auto(solo si es diaplay block y un ancho maximo) */
+    /* le doremos un margin-top para que separe del header ya que header tiene una position fixed se libera
+    y todos los elementos que estan debajo ocuparan ese espacio*/
     margin: 150px auto auto;
     max-width: 1400px;
     overflow: auto;
@@ -117,7 +120,7 @@ main .box {
 }
 
 .box img {
-    border-radius: 8px;
+    border-radius: 10px;
     display: block;
     width: 100%;
 }
