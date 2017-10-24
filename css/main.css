@@ -10,6 +10,7 @@ body {
 header {
     background-color: white;
     position: fixed;
+    top: 0;
     width: 100%;
 }
 .menu {
@@ -99,9 +100,10 @@ header {
     background-color: #B17E77;
 }
 
-main {
-    margin: auto;
+main { 
+    margin: 150px auto auto;
     max-width: 1400px;
+    overflow: auto;
     padding: 0 10px;
 }
 
@@ -115,12 +117,14 @@ main .box {
 }
 
 .box img {
+    border-radius: 8px;
     display: block;
     width: 100%;
 }
 .box .details {
     background-color: white;
-    height: 150px;
+    height: 100px;
+    margin-top: 15px; 
 }
 
 
